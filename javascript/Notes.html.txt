@@ -1,0 +1,60 @@
+9/17/19
+
+Js allows the page to become interactive and logical. It allows for the page to become alive and allow interaction with for
+example numbers and strings, etc. Also allows for data to be passed in to databases.
+
+var age = 52; then age = 44; means age is now 44, even though it doesnt have a var in front
+
+if you just used age = 52; it will still be a var even without the var
+
+Boolean = true/false
+null = null ex: var age;
+undefined = undefined ex: var age = ""; 
+number = 9, 551, NaN
+string = "string"
+object = {id:2} -- ex: var car={
+                                make: ferrari,
+                                color: red,
+                                model: enzo
+                                }
+array = [21, 56, Joe] --can have any data type in it, even other arrays
+function = function(){};
+
+---------------
+functions
+---------------
+function expression:
+var sayName = function(){
+  alert("fred");
+  };
+
+function declaration:
+function sayName() {
+    alert("fred");
+    };
+
+call-invoke-run
+CALL: function sayName(parameters){}  *Values passed in as arguments become the parameters
+INVOKE: sayName(arguments)
+
+------
+scope
+------
+every function has its own scope
+
+var name1 = "lucy"   is a GLOBAL SO IT CAN BE ACCESSED ANYWHERE
+function sayName(){
+console.log(name1);
+var name2 = "Nancy";
+}                     VAR NAME2 IS A LOCAL BECAUSE ITS INSIDE A FUNCTION, SO IT CANT BE ACCESSED
+
+CAN ONLY LOOK UP, CANT LOOK DOWN
+
+
+
+
+
+
+
+
+
